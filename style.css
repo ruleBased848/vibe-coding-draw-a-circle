@@ -8,13 +8,13 @@ body {
   max-width: 500px;
   margin: 40px auto;
   background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   padding: 24px;
   text-align: center;
 }
 .instructions {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 #draw-canvas {
   border: 2px solid #333;
@@ -27,21 +27,21 @@ body {
   margin-bottom: 16px;
 }
 button {
-  padding: 8px 20px;
+  padding: 8px 18px;
   margin: 0 8px;
-  font-size: 16px;
+  font-size: 1rem;
   border: none;
-  border-radius: 5px;
-  background: #007bff;
+  border-radius: 6px;
+  background: #1976d2;
   color: #fff;
   cursor: pointer;
   transition: background 0.2s;
 }
 button:hover {
-  background: #0056b3;
+  background: #125ea2;
 }
 .rating-display {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   margin-top: 10px;
   min-height: 32px;
 }
