@@ -22,6 +22,7 @@
 - Fit the best possible circle to the user’s path (e.g., least squares fitting)
 - Calculate deviation of user path from the fitted circle
 - Normalize and compute a "perfection" score (e.g., 0–100)
+- Becareful! If we use naive algorithm, even when the user draws only some part of the circle, the user can get high score. Thus we check if the user drew a complete circle.
 
 ### c. Output
 - Numeric score

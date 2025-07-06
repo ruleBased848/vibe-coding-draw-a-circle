@@ -8,18 +8,16 @@
 </head>
 <body>
   <div class="container">
-    <h1>Draw a Circle and Get Rated</h1>
     <div class="instructions">
-      <p>Draw a freehand circle on the canvas below. Click "Submit" to get your perfection score!</p>
+      <h2>Draw a Circle!</h2>
+      <p>Use your mouse or finger to draw a circle on the canvas below. Click "Submit" to see your score.</p>
     </div>
     <canvas id="draw-canvas" width="400" height="400"></canvas>
     <div class="controls">
       <button id="submit-btn">Submit</button>
       <button id="reset-btn">Reset</button>
     </div>
-    <div class="rating">
-      <span id="score-label">Score: </span><span id="score-value">-</span>
-    </div>
+    <div class="rating-display" id="rating-display"></div>
   </div>
   <script src="script.js"></script>
 </body>
